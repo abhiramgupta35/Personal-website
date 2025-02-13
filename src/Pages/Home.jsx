@@ -78,7 +78,7 @@ const TYPING_SPEED = 40;
 const ERASING_SPEED = 30;
 const PAUSE_DURATION = 2000;
 const WORDS = ["Passionate Developer", "Tech Lover"];
-const TECH_STACK = ["React", "Javascript", "CSS", "Tailwind"];
+const TECH_STACK = ["React JS", "Javascript", "CSS", "Tailwind"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/abhiramgupta35" },
   { icon: Linkedin, link: "https://www.linkedin.com/in/abhiram-a-m-4aa840190?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " },
@@ -190,7 +190,7 @@ const Home = () => {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-row gap-3 w-full justify-start" data-aos="fade-up" data-aos-delay="1400">
-                  <CTAButton href="#Portofolio" text="Projects" icon={ExternalLink} />
+                  {/* <CTAButton href="#Portofolio" text="Projects" icon={ExternalLink} /> */}
                   <CTAButton href="#Contact" text="Contact" icon={Mail} />
                 </div>
 
